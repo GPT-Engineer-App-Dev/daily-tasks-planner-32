@@ -12,6 +12,7 @@ import {
   ListItem,
   Text,
   VStack,
+  Spacer,
 } from "@chakra-ui/react";
 import { FaTrash } from "react-icons/fa";
 
@@ -84,6 +85,10 @@ const Index = () => {
               </ListItem>
             ))}
           </List>
+        </Box>
+        <Spacer />
+        <Box as="footer" w="100%" py={4} textAlign="center" bg="gray.200" mt={10}>
+          <Text>© 2023 Todo App</Text>
         </Box>
       </VStack>
     </Container>
