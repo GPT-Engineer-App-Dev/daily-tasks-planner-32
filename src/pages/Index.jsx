@@ -43,7 +43,7 @@ const Index = () => {
     <Container centerContent maxW="container.md" py={10}>
       <VStack spacing={4} w="100%">
         <Heading as="h1" size="2xl" mb={6}>
-          Todo App
+          Procrastination List
         </Heading>
         <Flex w="100%" mb={4}>
           <Input
