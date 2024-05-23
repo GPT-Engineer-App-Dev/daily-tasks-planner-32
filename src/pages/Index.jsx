@@ -4,6 +4,7 @@ import {
   Button,
   Checkbox,
   Container,
+  Divider,
   Flex,
   Heading,
   IconButton,
@@ -86,6 +87,12 @@ const Index = () => {
           </List>
         </Box>
       </VStack>
+      <Divider mt={10} />
+      <Box as="footer" py={4} textAlign="center" w="100%">
+        <Text fontSize="sm" color="gray.500">
+          © 2023 Todo App
+        </Text>
+      </Box>
     </Container>
   );
 };
