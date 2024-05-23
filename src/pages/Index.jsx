@@ -51,7 +51,7 @@ const Index = () => {
             onChange={(e) => setNewTask(e.target.value)}
             mr={2}
           />
-          <Button onClick={addTask} colorScheme="teal">
+          <Button onClick={addTask} colorScheme="red">
             Add Task
           </Button>
         </Flex>
