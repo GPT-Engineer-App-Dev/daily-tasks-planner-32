@@ -88,8 +88,8 @@ const Index = () => {
         </Box>
       </VStack>
       <Divider mt={10} />
-      <Box as="footer" py={4} textAlign="center" w="100%">
-        <Text fontSize="sm" color="gray.500">
+      <Box as="footer" py={4} textAlign="center" w="100%" bg="gray.800" color="white" mt={10}>
+        <Text fontSize="sm">
           © 2023 Todo App
         </Text>
       </Box>
